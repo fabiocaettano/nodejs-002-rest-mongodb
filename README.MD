@@ -3,10 +3,10 @@
 
 # Indice
 
-* [Ambiente](##Ambiente)
-* [Máquina Virtual](##máquina-virtual)
-* [NVM](##NVM)
-* [GIT](##GIT)
+* [Ambiente](#Ambiente)
+* [Máquina Virtual](#máquina-virtual)
+* [NVM](#NVM)
+* [GIT](#GIT)
 
 ## Ambiente
 

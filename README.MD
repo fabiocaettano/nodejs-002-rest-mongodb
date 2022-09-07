@@ -1,11 +1,29 @@
 # REST-API com Node e Moongoose
 
 
-** [NVM](##NVM)
-** [SSH](##SSH)
-** [GIT](##GIT)
+# Indice
+* [Ambiente](## Ambiente)
+* [Máquina Virtual](## máquina-virtual)
+* [NVM](##NVM)
+* [GIT](##GIT)
 
-## SSH 
+## Ambiente
+
+1. Windows 10;
+2. WSL;
+3. UBUNTU 20.04;
+4. Visual Studio Code;
+5. Máquina Virtual
+
+## Máquina Virtual
+
+No serviço da Digital Ocean criar uma máquina virtual (Droplet).
+Configuração:
+
+1. Image: Ubuntu 20.04
+2. Plano: Shared CPU - Basic
+3. CPU Options: CPU Com 1 CPU e 1 GB de memória; 25 GB de SSD
+
 
 ## NVM 
 

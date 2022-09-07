@@ -1,0 +1,33 @@
+{
+  "name": "rest-api-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiocaettano/rest-api-001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiocaettano/rest-api-001/issues"
+  },
+  "homepage": "https://github.com/fabiocaettano/rest-api-001#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.5.4",
+    "nanoid": "^4.0.0",
+    "pino": "^8.5.0",
+    "pino-pretty": "^9.1.0",
+    "zod": "^3.19.0"
+  }
+}

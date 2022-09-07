@@ -3,18 +3,19 @@
 
 # Indice
 
-* [Ambiente](#Ambiente)
+* [Máquina Local](#máquina-local)
 * [Máquina Virtual](#máquina-virtual)
 * [NVM](#NVM)
 * [GIT](#GIT)
 
-## Ambiente
+## Máquina Local
 
 1. Windows 10;
 2. WSL;
 3. UBUNTU 20.04;
 4. Visual Studio Code;
 5. Máquina Virtual
+
 
 ## Máquina Virtual
 
@@ -72,3 +73,8 @@ git branch -M main
 git remote add origin https://github.com/usuarioGit/rest-api-001.git
 git push -u origin main
 ```
+
+## Bibliotecas da aplicação
+
+npm init
+npm install express zod config cors mongoose pino pino-pretty dayjs bcrypt jsonwebtoken lodash nanoid

@@ -4,8 +4,8 @@
 # Indice
 * [Ambiente](## Ambiente)
 * [Máquina Virtual](## máquina-virtual)
-* [NVM](##NVM)
-* [GIT](##GIT)
+* [NVM](## NVM)
+* [GIT](## GIT)
 
 ## Ambiente
 

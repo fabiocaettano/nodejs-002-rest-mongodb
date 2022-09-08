@@ -1,1 +1,1 @@
-console.log("Hello world from our API");
+console.log("Hello world");

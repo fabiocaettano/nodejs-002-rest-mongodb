@@ -89,7 +89,7 @@ npm install @types/body-parser @types/config @types/cors @types/express @types/n
 npm install
 ```
 
-## Gitignore
+## GitIgnore
 
 Na raiz do projeto criar o arquivo .gitignore.
 

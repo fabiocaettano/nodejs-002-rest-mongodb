@@ -7,6 +7,9 @@
 * [Máquina Virtual](#máquina-virtual)
 * [NVM](#NVM)
 * [GIT](#GIT)
+* [Bibliotecas](#Bibliotecas)
+* [GitIgnore](#gitignore)
+* [Executar Aplicação](#executar-aplicação)
 
 ## Máquina Local
 
@@ -74,7 +77,7 @@ git remote add origin https://github.com/usuarioGit/rest-api-001.git
 git push -u origin main
 ```
 
-## Bibliotecas da aplicação
+## Bibliotecas
 
 ``` cli
 npm init
@@ -82,4 +85,45 @@ npm init
 npm install express zod config cors mongoose pino pino-pretty dayjs bcrypt jsonwebtoken lodash nanoid
 
 npm install @types/body-parser @types/config @types/cors @types/express @types/node @types/pino @types/mongoose @types/bcrypt @types/jsonwebtoken @types/lodash @types/nanoid ts-node-dev typescript -D
+
+npm install
 ```
+
+## Gitignore
+
+Na raiz do projeto criar o arquivo .gitignore.
+
+No arquivo digitar a pasta "node_modules/" para que ela não seja realizada o upload para o repositório git:
+
+```
+node_modules/
+```
+
+## Executar aplicação
+
+Na linha 6 do arquivo package.json inserir em "scripts" a chave "dev":
+
+``` json
+"scripts": {    
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+```
+
+Executar o comando para criar o arquivo tsconfig.json:
+
+``` cli
+npx tsc --init
+```
+
+Na linha 4 do arquivo tsconfig.json incluir:
+
+``` json
+"outDir": "build",
+```
+
+Executar aplicação
+
+``` cli
+npm run dev
+```
+

@@ -39,7 +39,7 @@ kind: Deployment
 metadata:
   name: api
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: api
@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: fabiocaettano74/rest-api-001:v03
+          image: fabiocaettano74/rest-api-001:v05
           ports: 
           - containerPort: 1337
           env: 

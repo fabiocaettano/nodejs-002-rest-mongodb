@@ -8,7 +8,7 @@ const app = express();
 
 app.listen(port, async () => {
 
-    console.log("App is running");
+    console.log("App is running !!");
     
     await connect();
 });

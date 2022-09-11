@@ -4,6 +4,7 @@ import config from "config";
 async function connect(){
 
     const dbUri = config.get<string>("dbUri");
+    console.log(dbUri)
 
     try{
         await mongoose.connect(dbUri);
@@ -13,3 +14,5 @@ async function connect(){
         process.exit(1);
     }
 }
+
+export default connect;

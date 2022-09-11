@@ -11,6 +11,7 @@
 * [GitIgnore](#gitignore)
 * [Executar Aplicação](#executar-aplicação)
 * [Configuração Mongoose](#configuração-mongoose)
+* [Logger](#logger)
 
 
 ## Máquina Local
@@ -137,3 +138,14 @@ No arquivo "src >> app.ts" é realizada uma chamada para testar a conexão:
 ``` js
 await connect();
 ```
+
+## Logger
+
+A configuração do logger está no diretório "src >> utils >> logger.ts".
+
+Exemplo:
+
+``` js
+logger.info(`App is running at http://localhost:${port}`);
+```
+

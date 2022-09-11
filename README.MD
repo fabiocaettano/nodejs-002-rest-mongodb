@@ -1,7 +1,7 @@
 # REST-API com Node e Moongoose
 
 
-# Indice
+## Indice
 
 * [Máquina Local](#máquina-local)
 * [Máquina Virtual](#máquina-virtual)
@@ -10,6 +10,8 @@
 * [Bibliotecas](#Bibliotecas)
 * [GitIgnore](#gitignore)
 * [Executar Aplicação](#executar-aplicação)
+* [Configuração Mongoose](#configuração-mongoose)
+
 
 ## Máquina Local
 
@@ -127,3 +129,11 @@ Executar aplicação
 npm run dev
 ```
 
+## Configuração Mongoose
+
+A configuração de acesso ao banco MongoDb está no diretório "src >> utils >> connect.ts".
+
+No arquivo "src >> app.ts" é realizada uma chamada para testar a conexão: 
+``` js
+await connect();
+```

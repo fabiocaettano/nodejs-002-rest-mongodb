@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: fabiocaettano74/rest-api-001:v05
+          image: fabiocaettano74/rest-api-001:{{tag}}
           ports: 
           - containerPort: 1337
           env: 
